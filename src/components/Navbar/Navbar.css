@@ -1,0 +1,65 @@
+.navbar{
+    display: flex;
+    max-height: 150px;
+    background: black;
+    color: white;
+    top: 0;
+    position: sticky;
+    z-index: 15;
+}
+
+.logo img{
+    object-fit: contain;
+    width: 100%;
+    height: 20vw;
+    max-height: 70px;
+    max-width: 200px;
+    margin-left: 40px;
+}
+.heading{
+    width: 100%;
+    margin: auto auto;
+    font-size: 3vw;
+    text-align: center;
+}
+.navbar span{
+    position: absolute;
+    color: #00A8E1;
+}
+.menuButton{
+    margin: auto auto;
+}
+.menuButton button{
+    margin-right: 40px;
+    margin-top: 5px;
+    background-color: #000000;
+    color: white;
+    border-radius: 7px;
+    padding: 0px 10px;
+    font-size: 2.5vw;
+}
+@media only screen and (max-width: 650px) {
+    .heading{
+        display: none;
+    }
+    .menuButton{
+        position: absolute;
+        right: 0;
+        margin: auto auto;
+    }
+    .menuButton button{
+        font-size: clamp(2rem, 1rem + 1vw, 3rem);
+
+    }
+}
+
+/* @media (min-width: 650px) and (max-width: 900px) {
+    .navbar span{
+        display: none;
+    }
+}
+@media only screen and (max-width: 360px){
+    .navbar span{
+        display: none;
+    }
+}  */

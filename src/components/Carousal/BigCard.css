@@ -1,0 +1,45 @@
+.bigCard{
+    display: inline-block;
+    width: 50%;
+    margin-right: 30px;
+}
+.bigImg img{
+    /* max-height: 50px; */
+    height: clamp(12rem, 1rem + 20vw, 22vw);
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 40px 58px -16px,
+    rgba(0, 0, 0, 0.72) 0px 30px 22px -10px ;
+    border-radius: 30px;
+    border: 3px solid white;
+}
+.bigCardPara{
+    text-align: center;
+    color: white;
+    font-size: clamp(1rem, 0rem + 2vw, 1.5rem);
+}
+.bigImg img:hover{
+    transform: scale(1.04);
+    box-shadow: rgba(255, 255, 255, 0.8) 0px 40px 58px -16px,
+    rgba(255, 255, 255, 0.72) 0px 30px 22px -10px ;
+}
+.title{
+    text-align: center;
+    max-height: 30px;
+    margin-bottom: 30px;
+
+}
+.title h4{
+    display: inline-block;
+    color: white;
+    margin: auto;
+    width: 50%;
+    font-size: clamp(1rem, 0rem + 2vw, 1.8rem);
+}
+@media only screen and (max-width: 450px) {
+    .bigCard{
+        width: 55%;
+    }
+    
+  }

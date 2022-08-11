@@ -1,0 +1,49 @@
+.home{
+  background: linear-gradient(to right, #000428, #004e92);
+  /* padding-bottom: 140px;  */
+  font-size: clamp(2rem, -1.5rem + 8vw, 4rem);
+  color: white;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background: linear-gradient(to right, #000428, #004e92);
+}
+
+.slider .inactive {
+  display: none;
+}
+.slider .active {
+  display: block;
+}
+
+.slider img {
+  border-radius: 15px;
+  height: 30vw;
+  width: 100%;
+}
+.slider img:hover{
+  transform: scale(1.04);
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 40px 58px -16px,
+  rgba(255, 255, 255, 0.72) 0px 30px 22px -10px ;
+}
+.sliderButton {
+  background: transparent;
+  outline: none;
+  border: none;
+  margin: 5vw;
+  font-size: 2.5vw;
+  cursor: pointer;
+  color: white;
+}
+@media only screen and (max-width: 550px) {
+    .sliderButton{
+        margin: 0px;
+    }
+    .slider img{
+        height: 45vw;
+    }
+}

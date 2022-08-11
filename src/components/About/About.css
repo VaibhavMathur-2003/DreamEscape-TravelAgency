@@ -1,0 +1,52 @@
+.about {
+  color: white;
+  background: linear-gradient(to right, #000428, #004e92);
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.about p {
+  margin-right: 30px;
+  padding-top: 140px;
+  font-size: clamp(1rem, -1.5rem + 3vw, 2rem);
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.about h1 {
+  font-size: clamp(2rem, -1.5rem + 8vw, 4rem);
+  position: absolute;
+
+}
+
+.intro iframe {
+  align-items: center;
+  display: inline-block;
+  border-width: 10px;
+  border-radius: 7px;
+  border-color: rgb(9, 245, 9);
+  margin-top: 50px;
+  width: 43vw;
+  height: 350px;
+}
+
+.intro_para {
+  display: inline-block;
+}
+@media only screen and (max-width: 850px) {
+  .about {
+    flex-direction: column;
+  }
+  .intro iframe {
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .intro iframe {
+    width: 70vw;
+    height: 230px;
+  }
+  .about p {
+    padding-top: 50px;
+  }
+}

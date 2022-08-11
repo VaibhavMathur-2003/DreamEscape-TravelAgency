@@ -1,0 +1,13 @@
+.carousal{
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px;
+    display: flex;
+}
+.carousalInner{
+    white-space: nowrap;
+    transition: ease 1s;
+    /* display: inline-block; */
+}

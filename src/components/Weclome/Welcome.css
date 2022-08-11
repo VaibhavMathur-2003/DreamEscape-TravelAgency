@@ -1,0 +1,16 @@
+.welcomeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 712px;
+  text-align: "center";
+  font-size: clamp(1.5rem, 1rem + 5vw, 3rem);
+  word-spacing: 40px;
+  cursor: pointer;
+  color: black;
+}
+.text:hover{
+    transform: scale(1.2);
+    transition: ease-in 2S;
+    
+}
