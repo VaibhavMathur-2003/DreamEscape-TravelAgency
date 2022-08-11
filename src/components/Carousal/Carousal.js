@@ -50,7 +50,7 @@ const Carousal = () => {
               <BigCard
                 img="https://picsum.photos/id/231/1140/500"
                 title="Goa Tour"
-                description="Price: $300"
+                description="Price: $500"
               />
             </Link>
             <Link to="/kashmir">
@@ -58,7 +58,7 @@ const Carousal = () => {
               <BigCard
                 img="https://picsum.photos/id/235/1140/500"
                 title="Kashmir Tour"
-                description="Price: $300"
+                description="Price: $450"
               />
             </Link>
             <Link to="/ladakh">
@@ -66,7 +66,7 @@ const Carousal = () => {
               <BigCard
                 img="https://picsum.photos/id/244/1140/500"
                 title="Ladakh Tour"
-                description="Price: $300"
+                description="Price: $400"
               />
             </Link>
             <Link to="/rajasthan">
@@ -74,7 +74,7 @@ const Carousal = () => {
               <BigCard
                 img="https://picsum.photos/id/243/1140/500"
                 title="Rajasthan Tour"
-                description="Price: $300"
+                description="Price: $400"
               />
             </Link>
             <Link to="/andaman">
@@ -82,7 +82,7 @@ const Carousal = () => {
               <BigCard
                 img="https://picsum.photos/id/250/1140/500"
                 title="Andaman Tour"
-                description="Price: $300"
+                description="Price: $500"
               />
             </Link>
           </div>
